@@ -32,6 +32,11 @@
   "initialCols": 120,
   "initialPosition": "120,50",
   "initialRows": 30,
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
   "profiles": {
     "defaults": {
       "font": {
@@ -53,12 +58,16 @@
         "suppressApplicationTitle": false
       },
       {
+        "colorScheme": "Ubuntu-22.04-ColorScheme",
         "cursorShape": "bar",
-        "guid": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
+        "elevate": false,
+        "font": {
+          "weight": "light"
+        },
+        "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
         "hidden": false,
-        "name": "Ubuntu 22.04.1 LTS",
-        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "startingDirectory": null
+        "name": "Ubuntu 22.04.2 LTS",
+        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
       },
       {
         "guid": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
@@ -88,6 +97,18 @@
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "hidden": true,
         "name": "Windows PowerShell"
+      },
+      {
+        "guid": "{11fce485-8a4d-5f7f-838b-eb23eec1ef05}",
+        "hidden": false,
+        "name": "Developer Command Prompt for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{0e4b908f-21d8-5268-80ce-f12f9fc4ae86}",
+        "hidden": false,
+        "name": "Developer PowerShell for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
       }
     ]
   },
@@ -300,24 +321,24 @@
       "yellow": "#C4A000"
     },
     {
-      "background": "#300A24",
-      "black": "#171421",
-      "blue": "#0037DA",
+      "background": "#470F36",
+      "black": "#000000",
+      "blue": "#0021FF",
       "brightBlack": "#767676",
-      "brightBlue": "#08458F",
-      "brightCyan": "#2C9FB3",
-      "brightGreen": "#26A269",
-      "brightPurple": "#A347BA",
-      "brightRed": "#C01C28",
+      "brightBlue": "#0175FF",
+      "brightCyan": "#3BD5F0",
+      "brightGreen": "#34CF23",
+      "brightPurple": "#DF61FF",
+      "brightRed": "#FF2535",
       "brightWhite": "#F2F2F2",
       "brightYellow": "#A2734C",
       "cursorColor": "#FFFFFF",
-      "cyan": "#3A96DD",
+      "cyan": "#3D9DE8",
       "foreground": "#FFFFFF",
-      "green": "#26A269",
+      "green": "#2BB53A",
       "name": "Ubuntu-22.04-ColorScheme",
-      "purple": "#881798",
-      "red": "#C21A23",
+      "purple": "#BB20D1",
+      "red": "#DE1E28",
       "selectionBackground": "#FFFFFF",
       "white": "#CCCCCC",
       "yellow": "#A2734C"
