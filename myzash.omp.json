@@ -5,6 +5,11 @@
       "alignment": "left",
       "segments": [
         {
+          "style": "plain",
+          "template": "💪 ",
+          "type": "root"
+        },
+        {
           "foreground": "#62ED8B",
           "style": "plain",
           "template": "{{ .UserName }}@{{ .HostName }} ",
