@@ -1,10 +1,10 @@
+# Import-Module Terminal-Icons
 
 oh-my-posh init pwsh --config "C:/Users/maged/AppData/Local/Programs/oh-my-posh/themes/mythemes/myzash.omp.json" | Invoke-Expression
 
-Import-Module posh-git
-Import-Module PSReadLine
-Import-Module Terminal-Icons
+$env:POSH_GIT_ENABLED = $true
 
+Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
 
 # PowerShell parameter completion shim for the dotnet CLI
