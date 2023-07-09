@@ -116,8 +116,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+echo "source /etc/profile.d/bash_completion.sh" >> ~/.bashrc
+
 #oh-my-posh
-eval "$(oh-my-posh --init --shell bash --config /home/maged/poshthemes/mythemes/myubuntuzash.omp.json)"
+eval "$(oh-my-posh init bash --config ~/myubuntuzash.omp.json)"
 
 #python alias
 alias python=python3
@@ -143,6 +145,13 @@ complete -f -F _dotnet_bash_complete dotnet
 
 
 #zsh profile path: etc\zsh\zshrc
+
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source /etc/profile.d/bash_completion.sh
+source /etc/profile.d/bash_completion.sh
+source /etc/profile.d/bash_completion.sh
+source /etc/profile.d/bash_completion.sh
+source /etc/profile.d/bash_completion.sh
