@@ -1,0 +1,14 @@
+winget install --id Bitwarden.Bitwarden
+winget install --id Docker.DockerDesktop
+winget install --id Mozilla.Firefox.DeveloperEdition
+winget install --id Git.Git
+winget install --id GitHub.GitHubDesktop
+winget install --id Google.Chrome
+winget install --id Notepad++.Notepad++
+winget install --id OBSProject.OBSStudio
+winget install --id JanDeDobbeleer.OhMyPosh
+winget install --id Postman.Postman
+winget install --id OpenJS.NodeJS
+winget install --id Microsoft.AzureDataStudio
+winget install --id ReincubateLtd.CamoStudio
+
