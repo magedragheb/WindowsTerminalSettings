@@ -116,13 +116,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-echo "source /etc/profile.d/bash_completion.sh" >> ~/.bashrc
-
 #oh-my-posh
 eval "$(oh-my-posh init bash --config ~/myubuntuzash.omp.json)"
 
 #python alias
-alias python=python3
+alias python=python3.12
+PIPENV_VENV_IN_PROJECT=true
 
 #dotnet
 #$HOME = /home/maged
@@ -150,8 +149,6 @@ complete -f -F _dotnet_bash_complete dotnet
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-source /etc/profile.d/bash_completion.sh
-source /etc/profile.d/bash_completion.sh
-source /etc/profile.d/bash_completion.sh
-source /etc/profile.d/bash_completion.sh
-source /etc/profile.d/bash_completion.sh
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
