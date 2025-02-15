@@ -116,11 +116,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#oh-my-posh
-eval "$(oh-my-posh init bash --config ~/myubuntuzash.omp.json)"
 
 #python alias
-alias python=python3.12
+alias python=python3.13
 PIPENV_VENV_IN_PROJECT=true
 
 #dotnet
@@ -152,3 +150,7 @@ export NVM_DIR="$HOME/.nvm"
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
